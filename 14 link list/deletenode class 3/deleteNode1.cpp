@@ -35,6 +35,19 @@ int main()
     int arr[] = {2, 4, 6, 8, 10};
     Head = CreateLinkedList(arr, 0, 5);
 
+
+// delee a node at start
+// man lo 2 no node delete karna hai
+
+if(Head!=NULL){
+    Node *temp3=Head;
+    Head= Head->next;
+    delete temp3; // now delete first node
+}
+
+
+
+
     // print values
     Node *temp2;
     temp2 = Head;

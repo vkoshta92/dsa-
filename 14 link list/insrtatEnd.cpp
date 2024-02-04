@@ -43,3 +43,6 @@ while (newTemp)
 
 
 }
+
+// space O(1)
+//time O(n)

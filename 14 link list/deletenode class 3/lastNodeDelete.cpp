@@ -35,6 +35,41 @@ int main()
     int arr[] = {2, 4, 6, 8, 10};
     Head = CreateLinkedList(arr, 0, 5);
 
+//deletee fromlast
+///linked list doesnt exit
+//linked list ,1 node 
+//linked list >1
+// 1 node exist
+
+if(Head!=NULL)
+{
+    // only one node is presnt 
+if(Head->next==NULL){
+Node *temp4=Head;
+delete Head;
+Head= NULL;
+}
+
+    // more tahn 1 node is present.
+else{
+    Node *curr=Head;
+    Node *prev= NULL;
+    while(curr->next!=NULL){
+prev=curr;
+curr=curr->next;
+    }
+    prev->next=curr->next;
+    delete curr;
+
+}
+
+
+
+}
+
+
+
+
     // print values
     Node *temp2;
     temp2 = Head;
