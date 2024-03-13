@@ -36,6 +36,12 @@
 // git push origin bugfix:newBugFix--- remote me new name bn jega
 // git push -d origin bugfix
 // git push -d origin newBugFix
+//  git reset --hard HEAD~2     // isse ak ya 2 commit piche ja skte hai bas 
+//  isse kisi bhi commit me jana ho
+// git log
+// git checkout <commit-hash>
+//  pull krne se latest jo code commit kiya h vo aa jega.
+
 
 
 
